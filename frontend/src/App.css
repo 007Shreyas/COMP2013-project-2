@@ -1,0 +1,171 @@
+/*
+Due Date: 2025-11-21
+Course: COMP2013 - Web Programming 2
+Project: Project-2 - Grocery App 2.0
+Filename: App.css
+Main Developer: Professor Ziad Ewais (provided the starter code)
+Modified By: Shreyas Bhinkah
+Description: This is the one and only CSS style sheet for the Grocery App 2.0, defining styles for layout, components, and overall appearance.
+             
+Resources: Lecture Recordings, React.dev, MDN, W3Schools
+*/
+
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 1150px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.NavBar {
+  background-color: rgb(76, 43, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.NavDiv {
+  width: 33%;
+}
+
+.NavTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavCart {
+  text-align: right;
+  padding: 0 10px;
+}
+
+.NavUser {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.GroceriesApp-Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CartContainer {
+  width: 20%;
+  justify-content: center;
+}
+
+.CartCard {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  border: 2px wheat solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+.CartCardInfo {
+  width: 50%;
+}
+
+.ProductsContainer {
+  width: 60%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ProductCard {
+  width: 20%;
+  border: 2px wheat solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.ProductQuantityDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.QuantityBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.QuantityBtn:hover {
+  background-color: rgb(76, 43, 226);
+}
+
+img {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.counter-container {
+  
+  display: flex;
+  width: 70%;
+  height: 20px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.counter-button {
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.CartListBtns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.RemoveButton {
+  background-color: rgb(190, 0, 0);
+}
+
+#BuyButton {
+  background-color: green;
+  width: 50%;
+}
+
+.ProductForm {
+  display: flexbox;
+}
+
+#AddToCartButton {
+  background-color: rgb(217, 255, 0);
+  color: black;
+}
+
+#EditButton{
+  background-color: rgb(0, 0, 255);
+
+}
+
+#FormSubmitButton {
+  background-color: rgb(0, 151, 13);
+}
