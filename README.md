@@ -1,7 +1,7 @@
 # Grocery App 2.0
 
 
-## Upgraded version of Project-1 Grocery App
+Upgraded version of Project-1 Grocery App
 
 
 ## New Features
